@@ -17,7 +17,7 @@ This folder contains the necessary database and embedding files, as well as the 
 This folder contains the Jupyter notebooks named `DB_mmlu_{}.ipynb`, where `{}` represents various domains such as law, history, business, etc. These notebooks contain the code used to generate the database and embeddings for the different domains. The notebook files process the data from the `db_files` folder to create the embeddings and database files needed for the RAG model.
 
 ### `Final_team6_RAG.ipynb`
-This notebook contains the final RAG code for Team 6. It integrates the database and embeddings to perform retrieval-augmented generation tasks. The code combines the outputs from the domain-specific databases with the pre-trained model to generate responses based on the input queries.
+This notebook contains the final RAG code. It integrates the database and embeddings to perform retrieval-augmented generation tasks. The code combines the outputs from the domain-specific databases with the pre-trained model to generate responses based on the input queries.
 
 
 ## Requirements
@@ -30,7 +30,7 @@ This notebook contains the final RAG code for Team 6. It integrates the database
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/blasiasia/ewha_nlp.git
     ```
 
 2. Install the required dependencies:
@@ -52,4 +52,4 @@ This notebook contains the final RAG code for Team 6. It integrates the database
 
 ## License
 
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+This repository does not have a specified license. Please use it responsibly.
