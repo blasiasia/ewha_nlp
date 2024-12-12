@@ -26,7 +26,7 @@ This notebook contains the final RAG code. It integrates the database and embedd
 - Ensure that the environment is set up with the specified dependencies before running the notebooks.
 
 
-## How to Run
+## Installation
 
 1. Clone this repository to your local machine:
     ```bash
@@ -36,19 +36,6 @@ This notebook contains the final RAG code. It integrates the database and embedd
 2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
-    ```
-
-3. To generate the embeddings and database, run the domain-specific notebooks from the `db_code/` folder:
-    ```bash
-    jupyter notebook db_code/DB_mmlu_law.ipynb
-    jupyter notebook db_code/DB_mmlu_business.ipynb
-    jupyter notebook db_code/DB_mmlu_philosophy.ipynb
-    jupyter notebook db_code/DB_mmlu_history_psychology.ipynb
-    ```
-
-4. Once the databases and embeddings are ready, you can run the final RAG model:
-    ```bash
-    jupyter notebook Final_team6_RAG.ipynb
     ```
 
 ## License
