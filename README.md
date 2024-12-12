@@ -41,8 +41,9 @@ This notebook contains the final RAG code. It integrates the database and embedd
 3. To generate the embeddings and database, run the domain-specific notebooks from the `db_code/` folder:
     ```bash
     jupyter notebook db_code/DB_mmlu_law.ipynb
-    jupyter notebook db_code/DB_mmlu_history.ipynb
     jupyter notebook db_code/DB_mmlu_business.ipynb
+    jupyter notebook db_code/DB_mmlu_philosophy.ipynb
+    jupyter notebook db_code/DB_mmlu_history_psychology.ipynb
     ```
 
 4. Once the databases and embeddings are ready, you can run the final RAG model:
